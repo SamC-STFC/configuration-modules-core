@@ -19,6 +19,7 @@ name="[% name %]"
     }
 [%-                      ELSE %]
 [%-                         INCLUDE 'metaconfig/rsyslog/action.tt' type=action.keys.0 action=action.values.0 %]
+[%                  END %]
 [%              END %]
 [%-          END %]
 [%-      ELSE %]
